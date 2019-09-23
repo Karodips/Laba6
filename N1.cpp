@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-	setlocale(LC_ALL, "Russia");
+	setlocale(LC_ALL, "Russian");
 	int n;
 	cin >> n;
 	n = n % 60;
