@@ -8,8 +8,7 @@ int main() {
 	int year, cent;
 	cin >> year;
 	cent = year / 100;
-	if (year % 100
-		== 0) cout << (cent - 1) << endl;
+	if (year % 100 == 0) cout << (cent - 1) << endl;
 	else cout << cent << endl;
 	system("pause");
 	return 0;
