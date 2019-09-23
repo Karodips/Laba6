@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	setlocale(LC_ALL, "Russia");
+	setlocale(LC_ALL, "Russian");
 	string nedelya[7] = { "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday" };
 	int n;
 	cin >> n;
